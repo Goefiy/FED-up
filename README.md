@@ -39,11 +39,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
+  Profile
   <img src="readme-images/letterboxd-profile.png" width="375px" alt="letterboxd profile pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
+  Wishlist
   <img src="readme-images/letterboxd-wishlist.png" width="375px" alt="letterboxd wishlist pagina">
  
 </details>
