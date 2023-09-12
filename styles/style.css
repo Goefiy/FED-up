@@ -15,8 +15,12 @@
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
+	--color-text: #AABACC;
 	--color-background:#eee;
+	--main-background: #20262C;
+	--header-background: #14181C;
+	--footer-background: #2C3440;
+
 }
 
 
@@ -28,4 +32,32 @@
 /****************/
 
 /* jouw code */
+body {
+	margin: 0;
+	background-color: var(--main-background);
+	color: var(--color-text);
+}
 
+nav {
+	background-color: var(--header-background);
+}
+footer {
+	background-color: var(--footer-background);
+}
+img {
+	width: 9.6875em;
+	height: 15.625em;
+	border-radius: 0.1875em;
+}
+
+article ul {
+	list-style: none;
+	display: flex;
+	gap: .75em;
+}
+/* article:nth-of-type(2) li {
+	background-image: linear-gradient(90deg,hsla(0,0%,100%,0) 0,hsla(0,0%,100%,.5) 50%,hsla(0,0%,100%,0));
+	background-size: 100% 1px;
+	background-repeat: 0;
+	top, right, left: 0;
+} */
