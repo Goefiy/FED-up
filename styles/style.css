@@ -24,6 +24,7 @@
 	--color-button: #c8d4e0;
 	--color-background-button: #567;
 	--color-witwit: aliceblue;
+	--fontsize-titels: .75em;
 }
 
 /****************/
@@ -40,12 +41,11 @@ body {
 	font-family: var(--font);
 	font-weight: var(--text-lowerfont);
 }
-
-article:nth-of-type(2) img {
-	width: 9.6875em;
-	height: 15.625em;
-	border-radius: 0.1875em;
+article img, article ul img {
+	width: 5em;
+	height: 7.5625em;
 }
+
 /* end general code */
 
 /* header/nav code */
@@ -100,14 +100,14 @@ section:first-of-type {
 	margin-top: 1em;
 }
 
-section:first-of-type p:nth-of-type(1) {
+section:first-of-type h2 {
 	grid-area: 1 / 2 / 2 / 3; 
 	font-weight: var(--text-upperfont);
 	color: var(--color-witwit);
 	font-size: 1.25em;
 }
 
-section:first-of-type p:nth-of-type(3) {
+section:first-of-type p:nth-of-type(2) {
 	text-align: center;
 	color: var(--color-text);
 	font-size: .75em;
@@ -160,28 +160,43 @@ section:nth-of-type(2) ul {
 	text-align: center;
 }
 
-
-
 /* end tweede section code */
 
-article img, article ul img {
-	width: 5em;
-	height: 7.5625em;
+/* begin eerste en tweede article code */
+article:first-of-type , article:nth-of-type(2){
+	margin: .5em;
+	display: flex;
+	flex-direction: column;
+}
+
+article:first-of-type h3 , article:nth-of-type(2) h3 , article:nth-of-type(2) a{
+	text-transform: var(--text-deco-1);
+	font-weight: var(--text-lowerfont);
+	font-size: var(--fontsize-titels);
+	color: var(--color-text);
+	border-bottom:  0.0625em solid #456;
+	padding-bottom: 0.3125em;
+}
+
+article:first-of-type ul , article:nth-of-type(2) ul:nth-of-type(2) {
+	list-style: none;
+	display: flex;
+	justify-content: flex-start;
+	gap: .75em;
+	padding: 0;
+}
+/* end eerste article code */
+
+article:nth-last-of-type(2) ul:first-of-type {
+	border-bottom:  0.0625em solid #456;
+	display: flex;
+	justify-content: space-between;
 }
 
 
 
 
 
-/* article:nth-of-type(2) li {
-	background-image: linear-gradient(90deg,hsla(0,0%,100%,0) 0,hsla(0,0%,100%,.5) 50%,hsla(0,0%,100%,0));
-	background-size: 100% 1px;
-	background-repeat: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	border: 10px solid blue;
-} */
 
 
 footer {
