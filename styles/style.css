@@ -19,6 +19,10 @@
 	--text-upperfont: 600;
 	--text-lowerfont: 300;
 	--font: 'Inter', sans-serif;
+	--font-2: "georgiapro", sans-serif;
+	--color-button: #c8d4e0;
+	--color-background-button: #567;
+	--color-witwit: aliceblue;
 }
 
 /****************/
@@ -72,7 +76,7 @@ nav:first-of-type ul a {
 }
 
 nav:first-of-type p {
-	color: aliceblue;
+	color: var(--color-witwit);
 	font-size: 1em;
 	font-weight: var(--text-upperfont);
 }
@@ -80,36 +84,49 @@ nav:first-of-type p {
 
 /* eerste section code */
 section:first-of-type img {
-	width: 5em;
-	height: 5em;
-	border-radius: 0.1875em;
+	height: 7em;
+	border-radius: 4em;
+	grid-area: 1 / 1 / 4 / 2;
+	justify-self: right;
 }
 
 section:first-of-type {
-	display: flex;
-	justify-content: center;
-	flex-flow: wrap;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, .5fr) 1fr;
+	grid-column-gap: 20px;
+	grid-row-gap: 0px;
+	margin-top: 1em;
 }
 
 section:first-of-type p:nth-of-type(1) {
-	flex-grow: 6 ;
-	background-color: aquamarine;
-	display: flex;
-	flex-basis: 25%;
-	flex-grow: 4;
-}
-
-section:first-of-type p:nth-of-type(2) {
-	flex-grow: 6 ;
-	background-color: aqua;
-	flex-basis: 25%;
-	flex-grow: 4;
+	grid-area: 1 / 2 / 2 / 3; 
+	font-weight: var(--text-upperfont);
+	color: var(--color-witwit);
+	font-size: 1.25em;
 }
 
 section:first-of-type p:nth-of-type(3) {
-	background-color: beige;
-	flex-basis: 70%;
-	flex-grow: 4;
+	text-align: center;
+	color: var(--color-text);
+	font-size: .75em;
+	grid-area: 3 / 1 / 4 / 3; 
+}
+
+section:first-of-type button {
+	grid-area: 2 / 2 / 3 / 3; 
+	text-align: center;
+	border: none;
+	background: var(--color-background-button);
+	border-radius: 3px;
+	box-shadow: inset 0 1px 0 hsla(0,0%,100%,.2);
+	color: var(--color-button);
+	text-transform: var(--text-deco-1);
+	line-height: 12px;
+	padding: 7px 10px 6px;
+	letter-spacing: .075em;
+	font-weight: var(--text-upperfont);
+	font-size: .6em;
 }
 /* end eerste section code */
 
@@ -118,7 +135,11 @@ section:nth-of-type(2) ul {
 	list-style: none;
 	display: flex;
 	gap: .75em;
+	color: var(--color-text);
+	font-family: var(--font-2);
+	font-weight: var(--text-upperfont);
 }
+
 
 /* end tweede section code */
 
