@@ -11,6 +11,7 @@
 :root {
 	/* startje */
 	--color-text: #AABACC;
+	--color-text-2: #d8e0e8;
 	--color-background:#eee;
 	--main-background: #20262C;
 	--header-background: #14181C;
@@ -131,14 +132,34 @@ section:first-of-type button {
 /* end eerste section code */
 
 /* tweede section code */
+.cijfer {
+	font-family: var(--font-2);
+	font-size: 3em;
+	display: block;
+	margin-bottom: .5em;
+	color: var(--color-text-2);
+}
+
+section:nth-of-type(2) ul li {
+	color: var(--color-background-button);
+	font-family: var(--font);
+	font-weight: var(--text-lowerfont);
+	font-size: .6em;
+	letter-spacing: .2em;
+	text-transform: var(--text-deco-1);
+	flex-direction: column;
+	line-height: 1em;
+}
+
 section:nth-of-type(2) ul {
 	list-style: none;
 	display: flex;
-	gap: .75em;
-	color: var(--color-text);
-	font-family: var(--font-2);
-	font-weight: var(--text-upperfont);
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 3em;
+	text-align: center;
 }
+
 
 
 /* end tweede section code */
