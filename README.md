@@ -229,8 +229,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. CSS Grid Generator voor de layout van mijn grids. https://cssgrid-generator.netlify.app
+  2. ChatGPT voor specifieke, screenreader vriendelijke alt texts voor mijn foto's/film posters.
+  3. bron 2
+  4. ...
 
 </details>
