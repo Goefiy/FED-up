@@ -12,7 +12,11 @@
 	/* startje */
 	--color-text: #AABACC;
 	--color-text-2: #d8e0e8;
+	--color-text-3: #667788;
+	--color-text-4: #89a;
+	--color-text-5: #9ab;
 	--color-background:#eee;
+	--color-link-actief: #40bcf4;
 	--main-background: #20262C;
 	--header-background: #14181C;
 	--footer-background: #2C3440;
@@ -83,15 +87,15 @@ nav:first-of-type p {
 }
 /* end header/nav code */
 
-/* eerste section code */
-section:first-of-type img {
+/* eerste section code*/
+body > section:first-of-type img {
 	height: 7em;
 	border-radius: 4em;
 	grid-area: 1 / 1 / 4 / 2;
 	justify-self: right;
 }
 
-section:first-of-type {
+body > section:first-of-type {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(2, .5fr) 1fr;
@@ -100,21 +104,21 @@ section:first-of-type {
 	margin-top: 1em;
 }
 
-section:first-of-type h2 {
+body > section:first-of-type h3 {
 	grid-area: 1 / 2 / 2 / 3; 
 	font-weight: var(--text-upperfont);
 	color: var(--color-witwit);
 	font-size: 1.25em;
 }
 
-section:first-of-type p:nth-of-type(2) {
+body > section:first-of-type p:nth-of-type(2) {
 	text-align: center;
 	color: var(--color-text);
 	font-size: .75em;
 	grid-area: 3 / 1 / 4 / 3; 
 }
 
-section:first-of-type button {
+body > section:first-of-type button {
 	grid-area: 2 / 2 / 3 / 3; 
 	text-align: center;
 	border: none;
@@ -129,14 +133,20 @@ section:first-of-type button {
 	font-weight: var(--text-upperfont);
 	font-size: .6em;
 }
+
+body > section:first-of-type button:hover {
+	background-color: var(--color-text-3);
+	color: var(--color-witwit);
+}
 /* end eerste section code */
 
 /* tweede section code */
 .cijfer {
 	font-family: var(--font-2);
-	font-size: 3em;
+	font-size: 2.5em;
+	letter-spacing: normal;
 	display: block;
-	margin-bottom: .5em;
+	margin-bottom: .4em;
 	color: var(--color-text-2);
 }
 
@@ -144,8 +154,8 @@ section:nth-of-type(2) ul li {
 	color: var(--color-background-button);
 	font-family: var(--font);
 	font-weight: var(--text-lowerfont);
-	font-size: .6em;
-	letter-spacing: .2em;
+	font-size: .55em;
+	letter-spacing: .10em;
 	text-transform: var(--text-deco-1);
 	flex-direction: column;
 	line-height: 1em;
@@ -157,9 +167,21 @@ section:nth-of-type(2) ul {
 	flex-wrap: wrap;
 	justify-content: center;
 	gap: 3em;
+	row-gap: 1.5em;
 	text-align: center;
+	padding: 1em;
+	padding-top: 0;
+	margin-top: 0;
+	padding-left: 3.5em;
+	padding-right: 3.5em;
 }
 
+section:nth-of-type(2) h3 {
+	color: transparent;
+	margin: 0;
+	padding: 0;
+	font-size: .1em;
+}
 /* end tweede section code */
 
 /* begin eerste en tweede article code */
@@ -169,13 +191,16 @@ article:first-of-type , article:nth-of-type(2){
 	flex-direction: column;
 }
 
-article:first-of-type h3 , article:nth-of-type(2) h3 , article:nth-of-type(2) a{
+article:first-of-type h3 , article:nth-of-type(2) ul:first-of-type li h3 , article:nth-of-type(2) ul:first-of-type li a{
 	text-transform: var(--text-deco-1);
 	font-weight: var(--text-lowerfont);
 	font-size: var(--fontsize-titels);
 	color: var(--color-text);
 	border-bottom:  0.0625em solid #456;
 	padding-bottom: 0.3125em;
+	margin-bottom: 0;
+	letter-spacing: .0750em;
+	text-decoration: none;
 }
 
 article:first-of-type ul , article:nth-of-type(2) ul:nth-of-type(2) {
@@ -188,17 +213,130 @@ article:first-of-type ul , article:nth-of-type(2) ul:nth-of-type(2) {
 /* end eerste article code */
 
 article:nth-last-of-type(2) ul:first-of-type {
-	border-bottom:  0.0625em solid #456;
 	display: flex;
 	justify-content: space-between;
+	align-items: flex-end;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+article:nth-last-of-type(2) ul:first-of-type li:first-of-type {
+	flex-grow: 1;
+}
+
+article:nth-last-of-type(2) ul:first-of-type li a {
+	color: var(--color-text-3);
+	padding: 0;
+}
+
+article:nth-last-of-type(2) ul:first-of-type li a:hover {
+	color: var(--color-link-actief);
 }
 
 
+/* end tweede article code */
 
+/* begin derde article code */
 
+article:nth-of-type(3) section {
+	display: grid;
+	grid-template-columns: .5fr 1fr;
+	grid-template-rows: .75fr repeat(2, .5fr) 1fr .25fr;
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+	margin-left: .5em;
+	color: var(--color-text);
+	padding: .5em;
+	gap: .25em;
+}
 
+article:nth-of-type(3) section img {
+	grid-area: 1 / 1 / 5 / 2;
+	width: 5em;
+	height: 7.5625em;
+	border-radius: 0;
+	justify-self: flex-start;
+}
+article:nth-of-type(3) section h3 {
+	grid-area: 1 / 2 / 2 / 3;
+	margin: 0;
+	font-family: var(--font-2);
+	color: var(--color-witwit);
+	font-size: 1.25em;
+}
+article:nth-of-type(3) section span {
+	color: var(--color-text-4);
+	font-weight: var(--text-lowerfont);
+	font-size: .75em;
+	margin: 0;
+	font-family: var(--font);
+	margin-left: .5em;
+}
+article:nth-of-type(3) section p:nth-of-type(1) {
+	grid-area: 2 / 2 / 3 / 3;
+	color: var(--color-text-3);
+	margin: 0;
+	font-size: .75em;
+}
+article:nth-of-type(3) section p:nth-of-type(2) {
+	grid-area: 3 / 2 / 4 / 3;
+	justify-self: flex-start;
+	margin: 0;
+	font-style: italic;
+	font-size: 0.875em;
+	color: var(--color-text-5);
+	font-family: var(--font-2);
+	line-height: 1.5em;
+}
+article:nth-of-type(3) section p:nth-of-type(3) {
+	grid-area: 4 / 2 / 5 / 3;
+	margin: 0;
+	font-size: 0.875em;
+	color: var(--color-text-5);
+}
+article:nth-of-type(3) section p:nth-of-type(4) {
+	grid-area: 5 / 1 / 6 / 3;
+	font-size: .65em;
+	font-weight: var(--text-upperfont);
+}
+
+/* end derde article code */
 
 
 footer {
 	background-color: var(--footer-background);
+	padding: 1em;
+	color: var(--color-text-3);
+}
+footer img {
+	max-width: 2em;
+}
+footer ul {
+	list-style-type: none;
+	display: grid; 
+	grid-template-columns: repeat(8, 1fr); 
+	grid-template-rows: 1fr .5fr; 
+	grid-column-gap: 0px;
+	grid-row-gap: 20px; 
+	gap: .5em;
+	padding: 0;
+	font-size: .65em;
+	align-items: center;
+}
+footer ul li:nth-of-type(1) {
+	grid-area: 1 / 2 / 2 / 8;
+	margin-bottom: 1em;
+}
+footer ul li:nth-of-type(2) {
+	grid-area: 2 / 3 / 3 / 4;
+}
+footer ul li:nth-of-type(3) {
+	grid-area: 2 / 4 / 3 / 5;
+}
+footer ul li:nth-of-type(4) {
+	grid-area: 2 / 5 / 3 / 6;
+}
+footer ul li:nth-of-type(5) {
+	grid-area: 2 / 6 / 3 / 7;
 }
