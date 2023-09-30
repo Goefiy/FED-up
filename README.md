@@ -92,30 +92,30 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  <img width="1509" alt="Screenshot 2023-09-14 at 09 04 56" src="https://github.com/Goefiy/FED-up/assets/143953946/add69558-fb6f-4c27-905d-6ad0b8da8d09">
+  Begon deze opdracht met het invoegen van al mijn HTML, zodat ik al mijn content al in de website heb staan en later de CSS kan toepassen.
+  Ik ben ook begonnen met de header. Ik wou zo snel mogelijk een idee krijgen van de site, de styling en de content. Ook ben ik begonnen met de eerste section, de profiel-foto, button, titel, en biografie.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
+!! Gesprekjes werden uiteindelijk individueel niet in groepsverband.
+
+  | Ik             | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Hulp met  grid | en dit             | en ik dit    | en dan ik dat    |
+  |                | dit als er tijd is | nog een punt | dit wil ik zeker |
+  |                | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Grid gebruiken voor de bovenkant van de pagina.
+  - Bij de UL onder de bovenkanste section, met de cijfers en letters in dezelfde li, gebruik maken van SPANs.
 
 </details>
-
-
 
 
 
@@ -125,11 +125,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Eerste section en de UL eronder gingen goed en heb deze goed kunnen uitwerken. Nu was de opdracht om de rest van de content blokken uit te werken.
+  <img width="528" alt="Screenshot 2023-09-30 at 15 56 11" src="https://github.com/Goefiy/FED-up/assets/143953946/fd0c7a02-b10f-4739-9e33-b436002e35aa">
+De eerste ging best oke, kon de witte lijn maken door middel van een border-bottom en een klein beetje extra padding. Ook ben ik actief bezig geweest met het oefenen met de :root element. Ik had nog niet eerder gehoord van de root element, maar het leek een beetje op de vars bij JavaScript dus uiteindelijk lukte dat goed. Heb meteen een lijst kunnen toevoegen met vars verdeeld over de gehele pagina.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
+
+!! Ik had niet veel vragen voor de student-assistenten omdat ik niet tegen problemen aanliep. Ik had ze alleen laten zien dat mijn grid van vorige week en de flex op de ul goed gelukt was.
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
@@ -160,6 +164,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+- Ik heb veel nadruk gelegd op het toevoegen van duidelijke, informatieve en ook vermakelijke alt texts. Ik merkte dat de screen-reader bij de original website hier niet veel voor deed namelijk. Deze zijn goed te lezen door de screen-reader en geven meer uitleg bij een film-poster dan alleen de titel van de film.
+- Ook heb ik een duidelijkere HTML-structuur opgesteld dan die in de originele, ik gebruik geen onnodige div's, spans of id.
+- Wel heb ik gemerkt dat bij bijvoorbeeld mijn css het niet altijd makkelijk is om te zien welk element waar behandeld word aangezien ik veel first-of-types en nth-of-type gebruik. Ik heb dit kunnen verduidelijken door id's toe te voegen aan de body van mijn HTML pagina's. 
+
+
 </details>
 
 
@@ -172,11 +181,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik begon vandaag aan de 2 pagina van mijn website. Deze 2e pagina heeft andere contentblokken maar is in mijn mening een stuk makkelijker dus dat was fijn. 
+<img width="582" alt="Screenshot 2023-09-27 at 11 22 15" src="https://github.com/Goefiy/FED-up/assets/143953946/37a12184-26e2-4926-b7a8-adc531f5947f">
+
+Ik begon met de buttons vrij onderaan de pagina, en ben toen de film-poster-gallerij gaan maken die op de watchlist pagina staan. Deze heb ik gemaakt met flex-box.
+
+<img width="528" alt="Screenshot 2023-09-30 at 16 04 34" src="https://github.com/Goefiy/FED-up/assets/143953946/13fb042b-aa9a-44cc-ac13-2615f9e07ab1">
+
+Ook had ik een paar elementen die overeen kwamen met elementen in de index.html pagina dus ik kon sommige styling onderdelen bij elkaar plaatsen.
+De pagina had ik vrij snel al af, dit vond ik fijn. Ook ben ik aan de gang geweest met de laatste contentblokken op de index.html, oftewel de profile page. En heb nog wat general styling aangepast en verbeterd, en wat root elementen toegevoegd. 
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
+
+!! Ik had niet veel vragen voor de student-assistenten omdat ik niet tegen problemen aanliep. De hulp die ik nodig had kreeg ik van Lua, thanks lu :) 
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
@@ -187,11 +206,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
 
 </details>
 
