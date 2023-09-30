@@ -57,6 +57,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  1. Te weinig uitleg bij alt-texten van images en video's.
+  2. Onwijs veel classes en id's.
+  3. Onwijs veel gebruik van div's en onduidelijke sections.
+  4. Onduidelijke verdeling van content maakt het navigeren door de pagina met keyboard moeilijk.
 
 </details>
 
