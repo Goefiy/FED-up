@@ -93,6 +93,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   <img width="1509" alt="Screenshot 2023-09-14 at 09 04 56" src="https://github.com/Goefiy/FED-up/assets/143953946/add69558-fb6f-4c27-905d-6ad0b8da8d09">
+  
   Begon deze opdracht met het invoegen van al mijn HTML, zodat ik al mijn content al in de website heb staan en later de CSS kan toepassen.
   Ik ben ook begonnen met de header. Ik wou zo snel mogelijk een idee krijgen van de site, de styling en de content. Ook ben ik begonnen met de eerste section, de profiel-foto, button, titel, en biografie.
 
@@ -126,7 +127,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   Eerste section en de UL eronder gingen goed en heb deze goed kunnen uitwerken. Nu was de opdracht om de rest van de content blokken uit te werken.
+  
   <img width="528" alt="Screenshot 2023-09-30 at 15 56 11" src="https://github.com/Goefiy/FED-up/assets/143953946/fd0c7a02-b10f-4739-9e33-b436002e35aa">
+  
 De eerste ging best oke, kon de witte lijn maken door middel van een border-bottom en een klein beetje extra padding. Ook ben ik actief bezig geweest met het oefenen met de :root element. Ik had nog niet eerder gehoord van de root element, maar het leek een beetje op de vars bij JavaScript dus uiteindelijk lukte dat goed. Heb meteen een lijst kunnen toevoegen met vars verdeeld over de gehele pagina.
 
 
@@ -182,6 +185,7 @@ De eerste ging best oke, kon de witte lijn maken door middel van een border-bott
 
   ### Stand van zaken
   Ik begon vandaag aan de 2 pagina van mijn website. Deze 2e pagina heeft andere contentblokken maar is in mijn mening een stuk makkelijker dus dat was fijn. 
+  
 <img width="582" alt="Screenshot 2023-09-27 at 11 22 15" src="https://github.com/Goefiy/FED-up/assets/143953946/37a12184-26e2-4926-b7a8-adc531f5947f">
 
 Ik begon met de buttons vrij onderaan de pagina, en ben toen de film-poster-gallerij gaan maken die op de watchlist pagina staan. Deze heb ik gemaakt met flex-box.
@@ -190,6 +194,10 @@ Ik begon met de buttons vrij onderaan de pagina, en ben toen de film-poster-gall
 
 Ook had ik een paar elementen die overeen kwamen met elementen in de index.html pagina dus ik kon sommige styling onderdelen bij elkaar plaatsen.
 De pagina had ik vrij snel al af, dit vond ik fijn. Ook ben ik aan de gang geweest met de laatste contentblokken op de index.html, oftewel de profile page. En heb nog wat general styling aangepast en verbeterd, en wat root elementen toegevoegd. 
+
+<img width="528" alt="Screenshot 2023-09-30 at 16 08 01" src="https://github.com/Goefiy/FED-up/assets/143953946/e69708b1-6b45-4782-91ad-ef8aca149316">
+
+^ Zo ziet nu de profiel pagina er uit, heb de "Artikelen" toegevoegd, moet alleen hiervan de titel en link nog doen, deze styling heb ik vaker gedaan dus dat moet wel goed komen. Het enige waar ik echt nog tegen aan ga lopen is het responsive maken. Ik heb in mijn hoofd het gevoel alsof ik hier niet genoeg tijd voor ga hebben, ik ga kijken hoe ver ik ga komen. Ik wil sowieso kijken of ik de 2e nav bar kan toevoegen bij de desktop pagina, deze is namelijk wel in de originele site, en verdwijnt dus als je op telefoon zit, maar verschijnt als je het scherm vergroot. 
 
 
   ### Agenda voor meeting
@@ -237,7 +245,6 @@ De pagina had ik vrij snel al af, dit vond ik fijn. Ook ben ik aan de gang gewee
 
 
 
-
 ## Bronnenlijst
 
 <details open>
@@ -249,7 +256,8 @@ De pagina had ik vrij snel al af, dit vond ik fijn. Ook ben ik aan de gang gewee
 
   1. CSS Grid Generator voor de layout van mijn grids. https://cssgrid-generator.netlify.app
   2. ChatGPT voor specifieke, screenreader vriendelijke alt texts voor mijn foto's/film posters.
-  3. bron 2
-  4. ...
+  3. Voor de :hover state, https://developer.mozilla.org/en-US/docs/Web/CSS/:hover , en natuurlijk de github-oefening.
+  4. Voor alles wat ik heb gedaan met spans, https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span .
+  5. 
 
 </details>
