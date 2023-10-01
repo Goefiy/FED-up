@@ -57,10 +57,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
-  1. Te weinig uitleg bij alt-texten van images en video's.
-  2. Onwijs veel classes en id's.
-  3. Onwijs veel gebruik van div's en onduidelijke sections.
-  4. Onduidelijke verdeling van content maakt het navigeren door de pagina met keyboard moeilijk.
 
 </details>
 
@@ -92,31 +88,30 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  <img width="1509" alt="Screenshot 2023-09-14 at 09 04 56" src="https://github.com/Goefiy/FED-up/assets/143953946/add69558-fb6f-4c27-905d-6ad0b8da8d09">
-  
-  Begon deze opdracht met het invoegen van al mijn HTML, zodat ik al mijn content al in de website heb staan en later de CSS kan toepassen.
-  Ik ben ook begonnen met de header. Ik wou zo snel mogelijk een idee krijgen van de site, de styling en de content. Ook ben ik begonnen met de eerste section, de profiel-foto, button, titel, en biografie.
+  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-!! Gesprekjes werden uiteindelijk individueel niet in groepsverband.
-
-  | Ik             | student 2          | student 3    | student 4        |
+  | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | Hulp met  grid | en dit             | en ik dit    | en dan ik dat    |
-  |                | dit als er tijd is | nog een punt | dit wil ik zeker |
-  |                | ...                | ...          | ...              |
+  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - Grid gebruiken voor de bovenkant van de pagina.
-  - Bij de UL onder de bovenkanste section, met de cijfers en letters in dezelfde li, gebruik maken van SPANs.
+  - punt 1
+  - punt 2
+  - nog een punt
+  - ...
 
 </details>
+
+
 
 
 
@@ -126,17 +121,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  Eerste section en de UL eronder gingen goed en heb deze goed kunnen uitwerken. Nu was de opdracht om de rest van de content blokken uit te werken.
-  
-  <img width="528" alt="Screenshot 2023-09-30 at 15 56 11" src="https://github.com/Goefiy/FED-up/assets/143953946/fd0c7a02-b10f-4739-9e33-b436002e35aa">
-  
-De eerste ging best oke, kon de witte lijn maken door middel van een border-bottom en een klein beetje extra padding. Ook ben ik actief bezig geweest met het oefenen met de :root element. Ik had nog niet eerder gehoord van de root element, maar het leek een beetje op de vars bij JavaScript dus uiteindelijk lukte dat goed. Heb meteen een lijst kunnen toevoegen met vars verdeeld over de gehele pagina.
+  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
-
-!! Ik had niet veel vragen voor de student-assistenten omdat ik niet tegen problemen aanliep. Ik had ze alleen laten zien dat mijn grid van vorige week en de flex op de ul goed gelukt was.
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
@@ -167,11 +156,6 @@ De eerste ging best oke, kon de witte lijn maken door middel van een border-bott
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
-- Ik heb veel nadruk gelegd op het toevoegen van duidelijke, informatieve en ook vermakelijke alt texts. Ik merkte dat de screen-reader bij de original website hier niet veel voor deed namelijk. Deze zijn goed te lezen door de screen-reader en geven meer uitleg bij een film-poster dan alleen de titel van de film.
-- Ook heb ik een duidelijkere HTML-structuur opgesteld dan die in de originele, ik gebruik geen onnodige div's, spans of id.
-- Wel heb ik gemerkt dat bij bijvoorbeeld mijn css het niet altijd makkelijk is om te zien welk element waar behandeld word aangezien ik veel first-of-types en nth-of-type gebruik. Ik heb dit kunnen verduidelijken door id's toe te voegen aan de body van mijn HTML pagina's. 
-
-
 </details>
 
 
@@ -184,26 +168,11 @@ De eerste ging best oke, kon de witte lijn maken door middel van een border-bott
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  Ik begon vandaag aan de 2 pagina van mijn website. Deze 2e pagina heeft andere contentblokken maar is in mijn mening een stuk makkelijker dus dat was fijn. 
-  
-<img width="582" alt="Screenshot 2023-09-27 at 11 22 15" src="https://github.com/Goefiy/FED-up/assets/143953946/37a12184-26e2-4926-b7a8-adc531f5947f">
-
-Ik begon met de buttons vrij onderaan de pagina, en ben toen de film-poster-gallerij gaan maken die op de watchlist pagina staan. Deze heb ik gemaakt met flex-box.
-
-<img width="528" alt="Screenshot 2023-09-30 at 16 04 34" src="https://github.com/Goefiy/FED-up/assets/143953946/13fb042b-aa9a-44cc-ac13-2615f9e07ab1">
-
-Ook had ik een paar elementen die overeen kwamen met elementen in de index.html pagina dus ik kon sommige styling onderdelen bij elkaar plaatsen.
-De pagina had ik vrij snel al af, dit vond ik fijn. Ook ben ik aan de gang geweest met de laatste contentblokken op de index.html, oftewel de profile page. En heb nog wat general styling aangepast en verbeterd, en wat root elementen toegevoegd. 
-
-<img width="528" alt="Screenshot 2023-09-30 at 16 08 01" src="https://github.com/Goefiy/FED-up/assets/143953946/e69708b1-6b45-4782-91ad-ef8aca149316">
-
-^ Zo ziet nu de profiel pagina er uit, heb de "Artikelen" toegevoegd, moet alleen hiervan de titel en link nog doen, deze styling heb ik vaker gedaan dus dat moet wel goed komen. Het enige waar ik echt nog tegen aan ga lopen is het responsive maken. Ik heb in mijn hoofd het gevoel alsof ik hier niet genoeg tijd voor ga hebben, ik ga kijken hoe ver ik ga komen. Ik wil sowieso kijken of ik de 2e nav bar kan toevoegen bij de desktop pagina, deze is namelijk wel in de originele site, en verdwijnt dus als je op telefoon zit, maar verschijnt als je het scherm vergroot. 
+  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
-
-!! Ik had niet veel vragen voor de student-assistenten omdat ik niet tegen problemen aanliep. De hulp die ik nodig had kreeg ik van Lua, thanks lu :) 
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
@@ -214,6 +183,11 @@ De pagina had ik vrij snel al af, dit vond ik fijn. Ook ben ik aan de gang gewee
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
+
+  - punt 1
+  - punt 2
+  - nog een punt
+  - ...
 
 </details>
 
@@ -245,6 +219,7 @@ De pagina had ik vrij snel al af, dit vond ik fijn. Ook ben ik aan de gang gewee
 
 
 
+
 ## Bronnenlijst
 
 <details open>
@@ -254,10 +229,8 @@ De pagina had ik vrij snel al af, dit vond ik fijn. Ook ben ik aan de gang gewee
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. CSS Grid Generator voor de layout van mijn grids. https://cssgrid-generator.netlify.app
-  2. ChatGPT voor specifieke, screenreader vriendelijke alt texts voor mijn foto's/film posters.
-  3. Voor de :hover state, https://developer.mozilla.org/en-US/docs/Web/CSS/:hover , en natuurlijk de github-oefening.
-  4. Voor alles wat ik heb gedaan met spans, https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span .
-  5. 
+  1. bron 1
+  2. bron 2
+  3. ...
 
 </details>
