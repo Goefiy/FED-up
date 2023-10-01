@@ -1,5 +1,5 @@
 # Procesverslag
-Markdown is een simpele manier om HTML te schrijven.  
+Markdown is een simpele manier om HTML te schrijven. 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
@@ -13,17 +13,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 <details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
+<summary>uitwerken voor kick-off werkgroep</summary>
 
-  ### Auteur:
-  Jade van Schaik (vervangen door jouw naam)
+### Auteur:
+Jade van Schaik (vervangen door jouw naam)
 
-  #### Je startniveau:
-  Blauw (kies uit zwart, rood óf blauw)
+#### Je startniveau:
+Blauw (kies uit zwart, rood óf blauw)
 
-  #### Je focus:
-  Responsive (kies uit responsive óf surface plane)
- 
+#### Je focus:
+Responsive (kies uit responsive óf surface plane)
+
 </details>
 
 
@@ -33,19 +33,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Je website
 
 <details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
+<summary>uitwerken voor kick-off werkgroep</summary>
 
-  ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+### Je opdracht:
+link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
-  #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/letterboxd-profile.png" width="375px" alt="letterboxd profile pagina">
+#### Screenshot(s) van de eerste pagina (small screen): 
+hier de naam van de pagina 
+<img src="readme-images/letterboxd-profile.png" width="375px" alt="letterboxd profile pagina">
 
-  #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/letterboxd-wishlist.png" width="375px" alt="letterboxd wishlist pagina">
- 
+#### Screenshot(s) van de tweede pagina (small screen):
+hier de naam van de pagina 
+<img src="readme-images/letterboxd-wishlist.png" width="375px" alt="letterboxd wishlist pagina">
+
 </details>
 
 
@@ -53,10 +53,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Toegankelijkheidstest 1/2 (week 1)
 
 <details>
-  <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
+<summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
-  ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+### Bevindingen
+Lijst met je bevindingen die in de test naar voren kwamen:
+1. Te weinig uitleg bij alt-texten van images en video's.
+2. Onwijs veel classes en id's.
+3. Onwijs veel gebruik van div's en onduidelijke sections.
+4. Onduidelijke verdeling van content maakt het navigeren door de pagina met keyboard moeilijk.
 
 </details>
 
@@ -65,16 +69,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Breakdownschets (week 1)
 
 <details>
-  <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
+<summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
-  ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+### de hele pagina: 
+<img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+### dynamisch deel (bijv menu): 
+<img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+### wellicht nog een dynamisch deel (bijv filter): 
+<img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -85,61 +89,76 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Voortgang 1 (week 2)
 
 <details>
-  <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
-
-  ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+<summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
 
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+### Stand van zaken
+<img width="1509" alt="Screenshot 2023-09-14 at 09 04 56" src="https://github.com/Goefiy/FED-up/assets/143953946/add69558-fb6f-4c27-905d-6ad0b8da8d09">
 
 
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+Begon deze opdracht met het invoegen van al mijn HTML, zodat ik al mijn content al in de website heb staan en later de CSS kan toepassen.
+Ik ben ook begonnen met de header. Ik wou zo snel mogelijk een idee krijgen van de site, de styling en de content. Ook ben ik begonnen met de eerste section, de profiel-foto, button, titel, en biografie. 
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+
+
+### Agenda voor meeting
+samen met je groepje opstellen
+
+!! Gesprekjes werden uiteindelijk individueel niet in groepsverband.
+
+| Ik | student 2 | student 3 | student 4 |
+| --- | --- | --- | --- |
+| Hulp met grid | en dit | en ik dit | en dan ik dat |
+| | dit als er tijd is | nog een punt | dit wil ik zeker |
+| | ... | ... | ... |
+
+
+### Verslag van meeting
+hier na afloop snel de uitkomsten van de meeting vastleggen
+
+- Grid gebruiken voor de bovenkant van de pagina.
+- Bij de UL onder de bovenkanste section, met de cijfers en letters in dezelfde li, gebruik maken van SPANs.
 
 </details>
-
-
 
 
 
 ## Voortgang 2 (week 3)
 
 <details>
-  <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
-
-  ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+<summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
 
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+### Stand van zaken
+Eerste section en de UL eronder gingen goed en heb deze goed kunnen uitwerken. Nu was de opdracht om de rest van de content blokken uit te werken.
 
 
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+<img width="528" alt="Screenshot 2023-09-30 at 15 56 11" src="https://github.com/Goefiy/FED-up/assets/143953946/fd0c7a02-b10f-4739-9e33-b436002e35aa">
 
-  - punt 1
-  - punt 2
-  - nog een punt
+
+De eerste ging best oke, kon de witte lijn maken door middel van een border-bottom en een klein beetje extra padding. Ook ben ik actief bezig geweest met het oefenen met de :root element. Ik had nog niet eerder gehoord van de root element, maar het leek een beetje op de vars bij JavaScript dus uiteindelijk lukte dat goed. Heb meteen een lijst kunnen toevoegen met vars verdeeld over de gehele pagina.
+
+
+
+
+### Agenda voor meeting
+samen met je groepje opstellen
+
+!! Ik had niet veel vragen voor de student-assistenten omdat ik niet tegen problemen aanliep. Ik had ze alleen laten zien dat mijn grid van vorige week en de flex op de ul goed gelukt was.
+
+| student 1 | student 2 | student 3 | student 4 |
+| --- | --- | --- | --- |
+| dit bespreken | en dit | en ik dit | en dan ik dat |
+| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+| ... | ... | ... | ... |
+
+
+### Verslag van meeting
+hier na afloop snel de uitkomsten van de meeting vastleggen
+
+- punt 1
+- punt 2
+- nog een punt
 - ...
 
 </details>
@@ -151,10 +170,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Toegankelijkheidstest 2/2 (week 4)
 
 <details>
-  <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
+<summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
-  ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+### Bevindingen
+Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+
+- Ik heb veel nadruk gelegd op het toevoegen van duidelijke, informatieve en ook vermakelijke alt texts. Ik merkte dat de screen-reader bij de original website hier niet veel voor deed namelijk. Deze zijn goed te lezen door de screen-reader en geven meer uitleg bij een film-poster dan alleen de titel van de film.
+- Ook heb ik een duidelijkere HTML-structuur opgesteld dan die in de originele, ik gebruik geen onnodige div's, spans of id.
+- Wel heb ik gemerkt dat bij bijvoorbeeld mijn css het niet altijd makkelijk is om te zien welk element waar behandeld word aangezien ik veel first-of-types en nth-of-type gebruik. Ik heb dit kunnen verduidelijken door id's toe te voegen aan de body van mijn HTML pagina's. 
+
 
 </details>
 
@@ -165,29 +189,46 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Voortgang 3 (week 4)
 
 <details>
-  <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
-
-  ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+<summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
 
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+### Stand van zaken
+Ik begon vandaag aan de 2 pagina van mijn website. Deze 2e pagina heeft andere contentblokken maar is in mijn mening een stuk makkelijker dus dat was fijn. 
 
 
-  ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+<img width="582" alt="Screenshot 2023-09-27 at 11 22 15" src="https://github.com/Goefiy/FED-up/assets/143953946/37a12184-26e2-4926-b7a8-adc531f5947f">
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+
+Ik begon met de buttons vrij onderaan de pagina, en ben toen de film-poster-gallerij gaan maken die op de watchlist pagina staan. Deze heb ik gemaakt met flex-box.
+
+<img width="528" alt="Screenshot 2023-09-30 at 16 04 34" src="https://github.com/Goefiy/FED-up/assets/143953946/13fb042b-aa9a-44cc-ac13-2615f9e07ab1">
+
+Ook had ik een paar elementen die overeen kwamen met elementen in de index.html pagina dus ik kon sommige styling onderdelen bij elkaar plaatsen.
+De pagina had ik vrij snel al af, dit vond ik fijn. Ook ben ik aan de gang geweest met de laatste contentblokken op de index.html, oftewel de profile page. En heb nog wat general styling aangepast en verbeterd, en wat root elementen toegevoegd. 
+
+
+<img width="528" alt="Screenshot 2023-09-30 at 16 08 01" src="https://github.com/Goefiy/FED-up/assets/143953946/e69708b1-6b45-4782-91ad-ef8aca149316">
+
+
+^ Zo ziet nu de profiel pagina er uit, heb de "Artikelen" toegevoegd, moet alleen hiervan de titel en link nog doen, deze styling heb ik vaker gedaan dus dat moet wel goed komen. Het enige waar ik echt nog tegen aan ga lopen is het responsive maken. Ik heb in mijn hoofd het gevoel alsof ik hier niet genoeg tijd voor ga hebben, ik ga kijken hoe ver ik ga komen. Ik wil sowieso kijken of ik de 2e nav bar kan toevoegen bij de desktop pagina, deze is namelijk wel in de originele site, en verdwijnt dus als je op telefoon zit, maar verschijnt als je het scherm vergroot. 
+
+
+
+
+### Agenda voor meeting
+samen met je groepje opstellen
+
+!! Ik had niet veel vragen voor de student-assistenten omdat ik niet tegen problemen aanliep. De hulp die ik nodig had kreeg ik van Lua, thanks lu :) 
+
+| student 1 | student 2 | student 3 | student 4 |
+| --- | --- | --- | --- |
+| dit bespreken | en dit | en ik dit | en dan ik dat |
+| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+| ... | ... | ... | ... |
+
+
+### Verslag van meeting
+hier na afloop snel de uitkomsten van de meeting vastleggen
 
 </details>
 
@@ -198,39 +239,45 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Eindgesprek (week 5)
 
 <details>
-  <summary>uitwerken voor eindgesprek</summary>
+<summary>uitwerken voor eindgesprek</summary>
 
-  ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
-
-
-  ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+### Je uitkomst - karakteristiek screenshots:
+<img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
 
 
-  ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+### Dit ging goed/Heb ik geleerd: 
+Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+<img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+
+
+### Dit was lastig/Is niet gelukt:
+Korte omschrijving met plaatjes
+
+<img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
-
 
 
 
 
 ## Bronnenlijst
 
+
 <details open>
-  <summary>continu bijhouden terwijl je werkt</summary>
+<summary>continu bijhouden terwijl je werkt</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
+Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
+Nb. ChatGpT en andere AI horen er ook bij.
+Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+
+1. CSS Grid Generator voor de layout van mijn grids. https://cssgrid-generator.netlify.app
+2. ChatGPT voor specifieke, screenreader vriendelijke alt texts voor mijn foto's/film posters.
+3. bron 2
+4. ...
+3. Voor de :hover state, https://developer.mozilla.org/en-US/docs/Web/CSS/:hover , en natuurlijk de github-oefening.
+4. Voor alles wat ik heb gedaan met spans, https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span .
+5. 
+
 
 </details>
