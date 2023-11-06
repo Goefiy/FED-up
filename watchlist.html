@@ -14,11 +14,16 @@
 <body id="watchlist">
     <nav>
 		<p>&#x2022; Letterboxd</p>
-		<ul>
-			<li><a href="index.html">Log+</a></li>
-			<li><a href="watchlist.html">Ham</a></li>
-			<li><a href="">Search</a></li>
-		</ul>
+		<div class="dropdown">
+			<a href="index.html">Log+</a>
+			<button onclick="myFunction()" class="dropbtn">HAM</button>
+				<div id="myDropdown" class="dropdown-content">
+					<a href="index.html">Home</a>
+    				<a href="watchlist.html">Watchlist</a>
+    				<a href="#contact">Contact</a>
+				</div>
+			<a href="watchlist.html">Search</a>
+		</div>
 	</nav>
 
 	<ul>
@@ -66,5 +71,6 @@
 			<li><img src="images/youtube0icon.svg" alt="Youtube logo"></li>
 		</ul>
 	</footer>
+	<script defer src="scripts/script.js"></script>
 </body>
 </html>

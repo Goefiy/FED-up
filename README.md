@@ -242,30 +242,19 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Je uitkomst - karakteristiek screenshots:
-<img width="373" alt="profile pagina (top) uitkomst" src="https://github.com/Goefiy/FED-up/assets/143953946/215ea244-cab4-42dd-9933-a94b3868c38f">
-<img width="373" alt="profile pagina (bottom) uitkomst" src="https://github.com/Goefiy/FED-up/assets/143953946/3ff95d23-daed-4df4-b3d5-4e5158dba900">
-<img width="373" alt="watchlist pagina" src="https://github.com/Goefiy/FED-up/assets/143953946/a7b0d58b-3a77-4b0e-b390-89ca8256946d">
+<img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
 
 
 ### Dit ging goed/Heb ik geleerd: 
 Korte omschrijving met plaatjes
-Ik heb geleerd over hoe ik first-of-type, nth()of-type en soort dergelijke css selectoren. Deze had ik eerder nog niet gebruikt en vond ik interessant om zo vaak toe te passen. Ik heb veel geleerd over grid, en heb deze uiteindelijk ook meerdere keren succesvol kunnen toepassen, hier ben ik heel blij om. Voor de rest ging de standaard html en css best goed. 
-<img width="929" alt="Screenshot 2023-10-01 at 17 34 22" src="https://github.com/Goefiy/FED-up/assets/143953946/0bf31bb8-a907-483a-bc00-41d44dd7f03b">
-<img width="373" alt="Screenshot 2023-10-01 at 17 34 10" src="https://github.com/Goefiy/FED-up/assets/143953946/c4d2f402-f617-4b5f-8747-7d93aee6d2f7">
 
-Ook heb ik kunnen werken met de root voor de eerste keer dit ging ook best goed.
+<img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
 ### Dit was lastig/Is niet gelukt:
 Korte omschrijving met plaatjes
-De gehele website responsive maken zoals ik het graag zou willen is niet gelukt. Ik zou dan onwijs veel van mijn css zou moeten herschrijven en opstellen en daar heb ik helaas geen tijd voor gehad. 
-Ik vond sowieso het gebruik van Media Queries erg lastig en het duurde best een tijd voordat ik door had hoe dat werkte.
-Het is niet gelukt met tijd te kort, en kennis te kort om een een JavaScript animatie toe te voegen aan mijn website.
-Er zijn gewoon veel details waar ik nog niet aan heb kunnen werken, ook met bepaalde content. Dit ligt vooral aan het feit dat ik niet veel tijd had om mijn website op te schonen en misschien delen van mijn css en html compleet te herschrijven.
-Ik vond complexere states, en current states het alles wel moeilijker maken, vaak moest je dan code herschrijven en bleef je maar bezig omdat de ene foute code de andere triggert en het zo maar door gaat. Hier een tussenweg in vinden vond ik vaak wel lastig.
-<img width="1624" alt="Desktop" src="https://github.com/Goefiy/FED-up/assets/143953946/6d706031-03d6-4513-ba64-4c107e5e36e8">
 
-
+<img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
 
@@ -283,13 +272,12 @@ Nb. Vermeld de bronnen ook in je code.
 
 
 1. CSS Grid Generator voor de layout van mijn grids. https://cssgrid-generator.netlify.app
-2. ChatGPT voor specifieke, screenreader vriendelijke alt texts voor mijn foto's/film posters. Heb sommige ook zelf verzonnen.
+2. ChatGPT voor specifieke, screenreader vriendelijke alt texts voor mijn foto's/film posters.
+3. bron 2
+4. ...
 3. Voor de :hover state, https://developer.mozilla.org/en-US/docs/Web/CSS/:hover , en natuurlijk de github-oefening.
 4. Voor alles wat ik heb gedaan met spans, https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span .
-5. Omdat ik erachter kwam dat ik er eigenlijk geen bal van begreep: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries
-   https://www.w3schools.com/css/tryit.asp?filename=trycss_mediaqueries_hide
-   
-
+5. 
 
 
 </details>

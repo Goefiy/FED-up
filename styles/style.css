@@ -18,7 +18,7 @@
 	--color-text-button: #bbccdd;
 	--color-background:#eee;
 	--color-link-actief: #40bcf4;
-	--main-background: rgb(20,24,28); background: linear-gradient(0deg, rgba(20,24,28,1) 0%, rgba(32,38,44,1) 100%);
+	--main-background: rgb(20,24,28); background: linear-gradient(0deg, rgba(20,24,28,1) 0%, rgba(32,38,44,1) 100%);;
 	--header-background: #14181C;
 	--footer-background: #2C3440;
 	--button-background: #445566;
@@ -38,6 +38,7 @@
 	--border-bottom: 0.1em solid #456;
 	--border-radius-standaard: 0.125em;
 	--border-radius-profile-img: 0.75em;
+	--border-radius-progile-img-wl: 5em;
 }
 
 /****************/
@@ -54,15 +55,48 @@ body {
 	font-family: var(--font);
 	font-weight: var(--text-lowerfont);
 }
+
 article img, article ul img, #watchlist section img {
 	width: 5em;
 	height: 7.5625em;
 	border-radius: var(--border-radius-standaard);
 }
 
+
 /* end general code */
 
 /* BEGIN CODE POFILE PAGE */
+/* Button dropdown menu */
+.dropbtn {
+	cursor: pointer;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	margin-top: 3em;
+	background-color: var(--color-background-button);
+	color: var(--color-background);
+	border-radius: var(--button-border-radius);
+	min-width: 160px;
+	overflow: auto;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+.show {display: block;}
 
 /* header/nav code */
 nav:first-of-type {
@@ -71,7 +105,7 @@ nav:first-of-type {
 	justify-content: space-around;
 	align-content: center;
 }
-nav:first-of-type ul {
+nav:first-of-type .dropdown,  nav:first-of-type button {
 	display: flex;
 	align-content: center;
 	text-transform: var(--text-deco-1);
@@ -79,12 +113,15 @@ nav:first-of-type ul {
 	font-size: .825em;
 	gap: .75em;
 }
-nav:first-of-type ul li {
+nav:first-of-type button {
+	all:unset;
+}
+nav:first-of-type div:first-of-type a {
 	display: flex;
 	align-items: center;
 	margin-bottom: 0;
 }
-nav:first-of-type ul a {
+nav:first-of-type div:first-of-type a, nav:first-of-type button{
 	text-decoration: none;
 	color: var(--color-text);
 }
@@ -327,6 +364,7 @@ nav:first-of-type p {
 	grid-area: 5 / 1 / 6 / 3;
 	font-size: .65em;
 	font-weight: var(--text-upperfont);
+	margin: 1em 1em;
 }
 
 /* end derde article code */
@@ -469,7 +507,7 @@ footer ul li:nth-of-type(5) {
 	margin: 1em;
 	gap: .064em;
 }
-#watchlist button {
+#watchlist ul button {
 	border: none;
 	padding: 1.25em;
 	width: 100%;
@@ -515,17 +553,55 @@ footer ul li:nth-of-type(5) {
 /* P en dergelijken */
 
 /* Media queries */
-
-@media screen and (max-width: 30em) {
+@media screen and (max-width: 375px) {
 	nav:nth-of-type(2) {
 		display: none;
 	}
-	.image_desktop {
-		display: none;
+	article img, #watchlist section img {
+		width: 9em;
+		height: 13.6125em;
+		border-radius: var(--border-radius-standaard);
+	}
+	#index article:nth-of-type(3) section {
+		gap: 1em;
+	}
+	#index article:nth-of-type(3) section p:nth-of-type(4) {
+		grid-area: 5 / 1 / 6 / 3;
+		font-size: .65em;
+		font-weight: var(--text-upperfont);
+		margin: .5em 2em;
 	}
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 376px) and (max-width: 767px) {
+	nav:nth-of-type(2) {
+		display: none;
+	}
+	article img, #watchlist section img {
+		width: 10em;
+		height: 15.125em;
+		border-radius: var(--border-radius-standaard);
+	}
+	#index article:nth-of-type(3) section {
+		gap: 1em;
+	}
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+	nav:nth-of-type(2) {
+		display: none;
+	}
+	article img, article ul img, #watchlist section img {
+		width: 10em;
+		height: 15.125em;
+		border-radius: var(--border-radius-standaard);
+	}
+}
+
+
+/* Desktop media queries */
+@media screen and (min-width: 1200px) {
 	nav:first-of-type ul {
 		display: flex;
 		align-content: center;
@@ -594,4 +670,14 @@ footer ul li:nth-of-type(5) {
 	#watchlist ul:first-of-type, #watchlist section:first-of-type, #watchlist ul:last-of-type, #watchlist section:last-of-type{
 		margin: 2em 20em 1em 20em;
 	}
+	#watchlist > ul:first-of-type img {
+		width: 5em;
+		height: 5em;
+		border-radius: var(--border-radius-progile-img-wl)
+	}
+	#watchlist > ul:first-of-type h2 {
+		font-size: x-large;
+		margin-left: .5em;
+	}
+	
 }
