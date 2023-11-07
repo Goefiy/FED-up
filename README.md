@@ -242,7 +242,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Je uitkomst - karakteristiek screenshots:
-<img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+<img src="[readme-images/dummy-plaatje.jpg](https://github.com/Goefiy/FED-up/blob/main/readme-images/profile-top.png)" width="375px" alt="profile-top">
 
 
 ### Dit ging goed/Heb ik geleerd: 
