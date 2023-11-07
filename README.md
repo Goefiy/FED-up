@@ -242,19 +242,26 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Je uitkomst - karakteristiek screenshots:
-<img src="[readme-images/dummy-plaatje.jpg](https://github.com/Goefiy/FED-up/blob/main/readme-images/profile-top.png)" width="375px" alt="profile-top">
+<img width="371" alt="profile-top" src="https://github.com/Goefiy/FED-up/assets/143953946/7ab51863-116f-4c41-a214-28d2cc19e17e">
+<img width="371" alt="profile-mid" src="https://github.com/Goefiy/FED-up/assets/143953946/ae6f49a4-225b-413d-ac17-628f86ec0600">
+<img width="371" alt="profile-bottom" src="https://github.com/Goefiy/FED-up/assets/143953946/f421d2b3-4390-4476-aae5-f3985e76f11b">
+<img width="371" alt="watchlist" src="https://github.com/Goefiy/FED-up/assets/143953946/f87b74b7-3237-4ad5-975b-e199f71f7e80">
+
 
 
 ### Dit ging goed/Heb ik geleerd: 
-Korte omschrijving met plaatjes
+Ik heb geleerd over hoe ik first-of-type, nth()of-type en soort dergelijke css selectoren. Deze had ik eerder nog niet gebruikt en vond ik interessant om zo vaak toe te passen. Ik heb veel geleerd over grid, en heb deze uiteindelijk ook meerdere keren succesvol kunnen toepassen, hier ben ik heel blij om. Voor de rest ging de standaard html en css best goed.
 
-<img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+<img width="929" alt="code-01" src="https://github.com/Goefiy/FED-up/assets/143953946/cefeb87e-17d4-49d3-9777-3a2dc132ffa3">
+<img width="373" alt="root" src="https://github.com/Goefiy/FED-up/assets/143953946/43cb32ec-3b90-477d-b34d-55271f43e72a">
+
 
 
 ### Dit was lastig/Is niet gelukt:
-Korte omschrijving met plaatjes
+De gehele website responsive maken zoals ik het graag zou willen is niet gelukt. Ik zou dan onwijs veel van mijn css zou moeten herschrijven en opstellen en daar heb ik helaas geen tijd voor gehad. Ik vond sowieso het gebruik van Media Queries erg lastig en het duurde best een tijd voordat ik door had hoe dat werkte. Het is niet gelukt met tijd te kort, en kennis te kort om een een JavaScript animatie toe te voegen aan mijn website. Er zijn gewoon veel details waar ik nog niet aan heb kunnen werken, ook met bepaalde content. Dit ligt vooral aan het feit dat ik niet veel tijd had om mijn website op te schonen en misschien delen van mijn css en html compleet te herschrijven. Ik vond complexere states, en current states het alles wel moeilijker maken, vaak moest je dan code herschrijven en bleef je maar bezig omdat de ene foute code de andere triggert en het zo maar door gaat. Hier een tussenweg in vinden vond ik vaak wel lastig.
 
-<img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+<img width="1624" alt="desktop" src="https://github.com/Goefiy/FED-up/assets/143953946/ec0c4c56-e707-492f-a75e-affb8df65fdb">
+
 </details>
 
 
@@ -277,7 +284,7 @@ Nb. Vermeld de bronnen ook in je code.
 4. ...
 3. Voor de :hover state, https://developer.mozilla.org/en-US/docs/Web/CSS/:hover , en natuurlijk de github-oefening.
 4. Voor alles wat ik heb gedaan met spans, https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span .
-5. 
+5. Omdat ik erachter kwam dat ik er eigenlijk geen bal van begreep: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries https://www.w3schools.com/css/tryit.asp?filename=trycss_mediaqueries_hide
 
 
 </details>
