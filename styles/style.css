@@ -66,7 +66,9 @@ article img, article ul img, #watchlist section img {
 /* end general code */
 
 /* BEGIN CODE POFILE PAGE */
-/* Button dropdown menu */
+/* Button dropdown menu, ik had eerst een ul als nav, maar daar mocht ik geen divs of nog een ul in plaatsen, dus heb de gehele nav 
+uiteindelijk veranderd in een div om een dropdown menu te kunnen maken.
+ */
 .dropbtn {
 	cursor: pointer;
 }
@@ -85,7 +87,6 @@ article img, article ul img, #watchlist section img {
 	border-radius: var(--button-border-radius);
 	min-width: 160px;
 	overflow: auto;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .dropdown-content a {
@@ -98,7 +99,9 @@ article img, article ul img, #watchlist section img {
 .dropdown a:hover {background-color: #ddd;}
 .show {display: block;}
 
-/* header/nav code */
+/* header/nav code
+In de nav gebruik gemaakt van display:flex, dit maakt het op een rij zetten van de elementen makkelijk.
+*/
 nav:first-of-type {
 	background-color: var(--header-background);
 	display: flex;
@@ -132,7 +135,10 @@ nav:first-of-type p {
 }
 /* end header/nav code */
 
-/* eerste section code*/
+/* eerste section code
+Voor de eerste section grid gebruikt om alle elementen op een aparte plek te kunnen zetten.
+Met Grid-Area is dit heel makkelijk.
+*/
 #index div > section:first-of-type img {
 	height: 5.5em;
 	border-radius: 4em;
@@ -140,7 +146,7 @@ nav:first-of-type p {
 	justify-self: right;
 	border: 0.0625em solid var(--color-background-button);
 }
-#index  div > section:first-of-type img:hover {
+#index div > section:first-of-type img:hover {
 	border: .02em solid var(--color-text-5);
 }
 #index div  > section:first-of-type {
@@ -185,7 +191,10 @@ nav:first-of-type p {
 }
 /* end eerste section code */
 
-/* tweede section code */
+/* tweede section code
+Door diplay flex te gebruiken zijn de cijfers makkelijk te schuiven en dus ook responsive.
+Ik gaf het cijfer een span om deze aparte styling te geven van de tekst eronder.
+*/
 .cijfer {
 	font-family: var(--font-2);
 	font-size: 2.5em;
@@ -225,12 +234,16 @@ nav:first-of-type p {
 	font-size: .1em;
 }
 /* end tweede section code */
+
 #index nav:nth-of-type(2) {
 	border: 2px solid var(--border-color);
 	margin: 0 20em 0 20em;
 	border-radius: var(--border-radius-standaard);
 }
 
+/* 2e nav bar gemaakt die actief wordt gemaakt als de gebruiker op een groot 
+scherm de website gebruikt, op kleine apparaten gaat deze weg en wordt deze vervangen
+door alleen het hamburgermenu. */
 
 #index nav:nth-of-type(2) ul {
 	display: flex;
@@ -257,7 +270,11 @@ nav:first-of-type p {
 
 
 
-/* begin eerste en tweede article code */
+/* begin eerste en tweede article code 
+Veel overeenkomende code voor meerdere artikelen, display flex maakt het plaatsen en ordenen
+van de foto's makkelijk. Veel styling was hetzelfde dus kon dat makkelijker herhalen.
+*/
+
 #index  article:first-of-type , #index article:nth-of-type(2) {
 	margin: .5em;
 	display: flex;
@@ -304,9 +321,10 @@ nav:first-of-type p {
 
 /* end tweede article code */
 
-/* begin derde article code */
-
-
+/* begin derde article code
+Voor de recent reviews heb ik wel grid gebruikt, aangezien hier meerdere elementen bij in moesten staan.
+Dit was met grid-area goed te doen. Aangezien de positionering van beide sections praktisch gezien hetzelfde is, hoefde ik niet veel code te herhalen.
+*/
 
 #index article:nth-of-type(3) section {
 	display: grid;
@@ -369,7 +387,8 @@ nav:first-of-type p {
 
 /* end derde article code */
 
-
+/* Voor het watchlist element heb ik ook flex gebruikt, omdat deze het makkelijk op een rijtje zet.
+Met flex-wrap en flex-grow zijn ze te ordenen. */
 #index > section:last-of-type ul li img {
 	width: 22em;
 	border-radius: var(--border-radius-standaard);
@@ -393,7 +412,8 @@ nav:first-of-type p {
 	justify-items: center;
 }
 
-
+/* Aangezien de footer gewoon vast zit aan de bodem van de pagina's heb ik hiervoor grid gebruikt.
+ */
 
 footer {
 	background-color: var(--footer-background);
@@ -441,7 +461,10 @@ footer ul li:nth-of-type(5) {
 	background-color: var(--main-background-wl);
 }
 
-/* Eerste UL */
+
+/* Eerste UL
+Flex gebruikt omdat ik dat toch het makkelijkst vind en ik hier niet veel elementen,
+op  moeilijke plekken hoefde te zetten. Profielfoto en naam blijven mooi links staan. */
 #watchlist > ul:first-of-type {
 	list-style-type: none;
 	display: flex;
@@ -462,7 +485,8 @@ footer ul li:nth-of-type(5) {
 /* Einde eerste UL */
 
 
-/* Eerste section */
+/* Eerste section
+Voor de foto-gallerij flex gebruikt, houdt de foto's mooi responsive.  */
 #watchlist section:first-of-type {
 	display: flex;
 	justify-content: space-between;
@@ -498,7 +522,9 @@ footer ul li:nth-of-type(5) {
 /* Einde eerste section */
 
 
-/* Begin ul + buttons */
+/* Begin ul + buttons 
+Buttons van de officiele letterboxd nagemaakt, heb hier veel profijt kunnen maken van al mijn root
+elementen, ook hier weer flex gebruikt om ze allemaal onder elkaar in het center te houden.*/
 #watchlist .ul_buttons {
 	list-style-type: none;
 	display: flex;
@@ -525,7 +551,8 @@ footer ul li:nth-of-type(5) {
 }
 /* Einde ul en buttons */
 
-/* P en dergelijken */
+/* P en dergelijken
+Eind verhaaltje ook met flex gedaan, met een a element de link naar voren gebracht in de pagina zelf. */
 #watchlist section:last-of-type {
 	display: flex;
 	flex-direction: column;
@@ -551,6 +578,10 @@ footer ul li:nth-of-type(5) {
 	color: var(--color-witwit);
 }
 /* P en dergelijken */
+
+/* Media queries voor 4 schermsoorten gemaakt, gaat vooral over de zichtbaarheid van sommige elementen.
+Had heel veel moeite met het proberen van mijn em, px om te zetten in %. Heb 4 breakpoints gebruikt, en ze
+"handmatig" laten schalen van content. */
 
 /* Media queries */
 @media screen and (max-width: 375px) {
